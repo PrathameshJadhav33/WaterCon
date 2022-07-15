@@ -5,6 +5,7 @@ A water management system build with IOT and Cloud
 * [General info](#summary-clipboard)
 * [Technologies](#technologies-hammer)
 * [Features](#features-zap)
+* [Screenshots](#screenshots-eyes)
 
 ## Summary :clipboard:
 
@@ -34,6 +35,29 @@ In any case of power failure system will send appropriate alert messages to the 
   * Manual mode allows user to control water flow to tank through simple on/off buttons.
   * Automatic mode allows system to detect whether water has gone to certain level and then decide whether to start or stop the water intake. 
 * Report Generation through MATLAB
+
+## Screenshots :eyes:
+
+<table>
+  <tr>
+    <th>
+        <a href="screenshots/Screenshot_20220715-220416.jpg" target="_blank">
+        <img src='screenshots/Screenshot_20220715-220416.jpg' width='200px' alt='Login Screen' /> </a>
+    </th>
+    <th>
+        <a href="screenshots/Screenshot_20220715-212039.jpg" target="_blank">
+        <img src='screenshots/Screenshot_20220715-212039.jpg' width='200px' alt='Main Screen 1' /> </a>
+    </th>
+    <th>
+        <a href="screenshots/Screenshot_20220715-212108.jpg" target="_blank">
+        <img src='screenshots/Screenshot_20220715-212108.jpg' width='200px' alt='Main Screen 2' /> </a>
+    </th>
+    <th>
+        <a href="screenshots/Screenshot_20220715-212025.jpg" target="_blank">
+        <img src='screenshots/Screenshot_20220715-212025.jpg' width='200px' alt='Charts Screen' /> </a>
+    </th>
+  </tr>
+</table>
 
 ## Questions & Issues :thinking:
 
