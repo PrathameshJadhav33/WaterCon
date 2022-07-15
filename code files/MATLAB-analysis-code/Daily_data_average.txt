@@ -1,0 +1,29 @@
+% Replace the [] with channel ID to read data from:
+readChannelID = 983451;
+
+%  Replace the [] with channel ID to write data to:
+writeChannelID = 947610;
+
+% Enter the Write API Key between the '' below:
+writeAPIKey = 'KUAWEA5XQ8TWAD4O';
+
+%% Read Data %%
+[data] = thingSpeakRead(readChannelID,'Fields',[1],'NumDays',1);
+
+for i=1:size(data,1)
+    s=num2str(data(i));
+    if s == "NaN"
+        disp(data(i))
+        data(i)=0
+    end
+end
+
+%% Analyze Data %%
+% Add code in this section to analyze data and store the result in the
+% 'analyzedData' variable.
+data1 = mean(data);
+analyzedData=round(data1)
+
+
+%% Write Data %%
+thingSpeakWrite(writeChannelID, analyzedData, 'WriteKey', writeAPIKey);
