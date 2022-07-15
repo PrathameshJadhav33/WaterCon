@@ -63,6 +63,13 @@ In any case of power failure system will send appropriate alert messages to the 
 
 ## Contributing :+1:
 
+### Contributors
+
+* [Prathamesh Jadhav](https://github.com/PrathameshJadhav33)
+* [Omkar Kajarekar](https://github.com/omkarkajarekar)
+* [Bhavya Oswal](https://github.com/BhavyaOswal2908)
+* Atharva Joshi
+
 If you found a bug, have an idea how to improve the Contact Diary app or have a question, please create a [new issue](https://github.com/PrathameshJadhav33/Water/issues/new) or comment an existing one. If you would like to contribute code, fork the repository and send a pull request.
 
 ## License :page_facing_up:
